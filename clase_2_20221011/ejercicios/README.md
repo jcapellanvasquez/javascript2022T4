@@ -1,2 +1,3 @@
 ## Comando de nodejs en clase
-obtener la version de nodejs instalado `node --version`
+- Obtener la version de nodejs instalado `node --version`
+- Ejecutar archivo javascript con nodejs `node index.js`
