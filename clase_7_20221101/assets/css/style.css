@@ -1,0 +1,33 @@
+p {
+    color: red;
+}
+
+.color-fuente-azul {
+    color: #23395B;
+}
+
+.fuente-grande {
+    font-size: 24px;
+}
+
+.bg-azul {
+    background-color: #85C7F2;
+}
+
+.tamano-minimo {
+    width: 300px;
+    height: 300px;
+}
+.tamano-medio {
+    width: 500px;
+    height: 500px;
+}
+
+/* aplicar estilos a los bordes
+con un selector de id */
+#contenedo-imagen {
+    border-color: #4C4C4C;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
