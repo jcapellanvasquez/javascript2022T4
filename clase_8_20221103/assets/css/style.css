@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+
+.subtitulo {
+    font-size: 1.2em;
+    margin: 0.5em;
+}
+
+.color-fuente-azul {
+    color: #23395B;
+}
+
+.fuente-grande {
+    font-size: 24px;
+}
+
+.bg-azul {
+    background-color: #85C7F2;
+}
+
+.tamano-minimo {
+    width: 300px;
+    height: 300px;
+}
+.tamano-medio {
+    width: 500px;
+    height: 500px;
+}
+
+/* aplicar estilos a los bordes
+con un selector de id */
+#contenedo-imagen {
+    border-color: #4C4C4C;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#mi-formulario {
+    border: solid 1px #F4F3EE;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 4rem auto;
+    padding: 1rem;
+}
+
+.btn {
+    display: block;
+    /* Afectar los 4 lados */
+     /* margin: 1.5rem; */
+
+    /* margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto; */
+
+    margin: 1.5rem auto;
+
+    /* Espacio interno */
+    padding: 0.8rem 1.8rem;
+    background-color: #5941A9;
+    color: #fff;
+    border: solid 1px #5941A9;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background-color: #816CC6;
+    border-color: #816CC6;
+    /* background-color: #5941a9d9; */
+
+    /* Mover elemento en el eje X */
+    /* transform: translateX(80%); */
+    transition: all 0.3s;
+}
+
+.grupo-input {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    max-width: 300px;
+}
+
+.grupo-input > input {
+    outline: none;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.5px;
+}
+
+
+.grupo-input > input:focus {
+  border-color: #816CC6;
+}
