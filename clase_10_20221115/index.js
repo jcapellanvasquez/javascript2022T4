@@ -9,6 +9,10 @@ app.get('/', function (req, res) {
     res.sendFile(path.resolve(__dirname, "vistas", "index.html"));
 });
 
+app.get('/dom', function (req, res) {
+    res.sendFile(path.resolve(__dirname, "vistas", "dom.html"));
+});
+
 
 app.listen(port)
 console.log(`Servidor web corriendo: http://localhost:${port}`)
