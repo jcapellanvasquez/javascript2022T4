@@ -17,6 +17,10 @@ app.get('/modules', function (req, res) {
     res.sendFile(path.resolve(__dirname, "vistas", "modules.html"));
 });
 
+app.get('/programacion-asincrona', function (req, res) {
+    res.sendFile(path.resolve(__dirname, "vistas", "asincrono.html"));
+});
+
 
 
 app.listen(port)
