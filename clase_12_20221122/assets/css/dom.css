@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+.item {
+    padding: 0.8rem;
+    background-color: #FEC85D;
+    max-width: 200px;
+    margin: 0.8rem 0;
+    border-bottom: #222222 solid 2px;
+    text-align: center;
+    font-family: Verdana;
+    color: #222222;
+}

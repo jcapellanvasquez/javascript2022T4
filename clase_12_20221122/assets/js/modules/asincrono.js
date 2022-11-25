@@ -29,9 +29,16 @@ export const runAsync = () => {
 };
 
 export const runResolveAsync = () => {
+  const promise = new Promise((exito) => {
+    exito("exito")
+  }, (error)=> {
+    error("error")
+  })
+
+  console.log("corriendo ejemplo  ")
   const accionDelay = (delayTime, accion) => {
        return new Promise((resolve) => {
-            setTimeout(() => {
+            setTimeout(() => { // obteniendo datos
                 console.log(accion)
                 resolve(accion)
             }, delayTime)
@@ -39,6 +46,7 @@ export const runResolveAsync = () => {
   }
 
   const lavarseDientes = () => {
+    
     const delay = 5000;
     const msg = "Dientes limpios!";
     console.log("Lavandose los dientes");
@@ -59,8 +67,4 @@ export const runResolveAsync = () => {
     return accionDelay(delay, msg);
   };
 
-  // lavarseDientes()
-  // .then(() => banarse())
-  // .then(() => vestirse())
-  // .then(() => console.log("Promise end"))
 }
